@@ -5,6 +5,7 @@ html, body{
     margin: 0;
     font-family: 'Roboto', sans-serif; color: #425A6F;
     font-size: calc(1em + (21 - 16) * (100vw - 412px) / (1920 - 412));
+    letter-spacing: 0.03em;
 }
 h1{font-family: Georgia, 'Times New Roman', Times, serif;}
 h2{margin: 0;}
