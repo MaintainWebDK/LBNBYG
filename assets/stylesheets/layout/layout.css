@@ -1,0 +1,5 @@
+@import url("layout-primary-navigation.css");
+.grid-container{
+    display: grid;
+    grid-template-columns: 20vw 35vw 45vw;
+}
