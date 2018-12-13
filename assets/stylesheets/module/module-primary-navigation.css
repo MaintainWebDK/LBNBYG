@@ -1,7 +1,4 @@
 .module-primary-navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 4vw;
     height: 100vh;
     background-color: #738A9F;
