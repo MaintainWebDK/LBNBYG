@@ -2,6 +2,8 @@
 @import url("layout-primary-navigation.css");
 @import url("layout-content-sections.css");
 @import url("layout-content-hero-section.css");
+@import url("layout-article-small.css");
+@import url("layout-skills-gallery.css");
 
 .grid-container{
     display: grid;
