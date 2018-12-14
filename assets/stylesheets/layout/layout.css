@@ -1,5 +1,14 @@
+@import url("../variables.css");
 @import url("layout-primary-navigation.css");
+@import url("layout-content-sections.css");
+@import url("layout-content-hero-section.css");
+
 .grid-container{
     display: grid;
-    grid-template-columns: 20vw 35vw 45vw;
+    grid-template-columns: 20vw 80vw;
+    grid-auto-rows: repeat(5, 100vh); 
+}
+
+.layout-main-content{
+    margin: var(--gutter);
 }
