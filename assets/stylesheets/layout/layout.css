@@ -2,6 +2,10 @@
 @import url("layout-primary-navigation.css");
 @import url("layout-content-sections.css");
 @import url("layout-content-hero-section.css");
+@import url("layout-article-small.css");
+@import url("layout-skills-gallery.css");
+@import url("layout-profile-card.css");
+@import url("layout-profile-article.css");
 
 .grid-container{
     display: grid;
