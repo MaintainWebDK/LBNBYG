@@ -1,0 +1,13 @@
+.layout-profile-card{
+    grid-column: 1 / 3;
+    grid-row: 2 / 6;
+    padding: 5vh;
+    text-align: center;
+}
+
+.layout-profile-card img{
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    margin-bottom: 1vh;
+}

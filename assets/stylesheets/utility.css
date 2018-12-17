@@ -14,7 +14,7 @@
 }
 
 .font-color-white{
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .font-size-scale{
@@ -22,4 +22,12 @@
 }
 .font-size-scale-dubble{
     font-size: 1.5em;
+}
+
+.theme-background-color{
+    background-color: var(--content-color);
+}
+
+.padding-left-right{
+    padding: 0 10vh;
 }
