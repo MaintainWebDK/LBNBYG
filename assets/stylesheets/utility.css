@@ -1,33 +1,19 @@
-.uppercase-letters{
-    text-transform: uppercase;
-}
+.uppercase-letters{text-transform: uppercase;}
 
-.strong-letters{
-    font-weight: bold;
-}
+.strong-letters{font-weight: bold;}
 
-.line-height-double{
-    line-height: 2.5em;
-}
-.line-height-half{
-    line-height: 1.5em;
-}
+.line-height-double{line-height: 2.5em;}
 
-.font-color-white{
-    color: var(--white);
-}
+.line-height-half{line-height: 1.5em;}
 
-.font-size-scale{
-    font-size: 1.15em;
-}
-.font-size-scale-dubble{
-    font-size: 1.5em;
-}
+.font-color-white{color: var(--white);}
 
-.theme-background-color{
-    background-color: var(--content-color);
-}
+.font-size-scale{font-size: 1.15em;}
 
-.padding-left-right{
-    padding: 0 10vh;
-}
+.font-size-scale-dubble{font-size: 1.5em;}
+
+.theme-background-color{background-color: var(--content-color);}
+
+.padding-left-right{padding: 0 10vh;}
+
+.section-gutter{height: var(--gutter);}
