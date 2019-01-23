@@ -6,6 +6,8 @@
 @import url("layout-skills-gallery.css");
 @import url("layout-profile-card.css");
 @import url("layout-profile-article.css");
+@import url("layout-vendigo-image.css");
+@import url("layout-vendigo-article.css");
 
 .grid-container{
     display: grid;
@@ -13,6 +15,12 @@
     grid-auto-rows: repeat(5, 100vh); 
 }
 
+@media (min-width: 320px) and (max-width: 480px){  
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+}
+
 .layout-main-content{
-    margin: var(--gutter);
+    margin: 0 var(--gutter);
 }

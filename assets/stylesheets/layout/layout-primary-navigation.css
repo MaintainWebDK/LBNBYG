@@ -5,3 +5,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (min-width: 320px) and (max-width: 480px) { 
+    .layout-primary-navigation{
+        align-items: center;
+    }   
+}

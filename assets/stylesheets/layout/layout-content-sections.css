@@ -1,10 +1,10 @@
 .layout-content-sections{
     display: grid;
     height: calc(100vh - (var(--gutter) * 2));
-    grid-template-columns: 40% 5% 2% 3% 50%;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 40% 5% 2% 3% 45% 2% 3%;
+    grid-template-rows: repeat(8, 1fr);
 }
 
-.layout-content-sections:not(:last-of-type){
+/* .layout-content-sections:not(:last-of-type){
     margin-bottom: var(--gutter);
-}
+} */

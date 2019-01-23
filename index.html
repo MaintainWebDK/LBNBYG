@@ -8,11 +8,11 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/stylesheets/variables.css">
-    <link rel="stylesheet" href="assets/stylesheets/base/base.css">
-    <link rel="stylesheet" href="assets/stylesheets/module/module.css">
-    <link rel="stylesheet" href="assets/stylesheets/layout/layout.css"> 
-    <link rel="stylesheet" href="assets/stylesheets/utility.css">
+    <link rel="stylesheet" href="./assets/stylesheets/variables.css">
+    <link rel="stylesheet" href="./assets/stylesheets/base/base.css">
+    <link rel="stylesheet" href="./assets/stylesheets/module/module.css">
+    <link rel="stylesheet" href="./assets/stylesheets/layout/layout.css"> 
+    <link rel="stylesheet" href="./assets/stylesheets/utility.css">
     <title>Tømrer virksomhed - LBN BYG</title>
 </head>
 <body>
@@ -20,11 +20,11 @@
         <nav class="module-primary-navigation layout-primary-navigation">
             <ul class="line-height-double">
                 <li class="strong-letters"><a href="#"><h2>LBN BYG</h2></a></li>
-                <li><a href="#">Geografi</a></li>
-                <li><a href="#">Kompetencer</a></li>
-                <li><a href="#">Baggrund</a></li>
-                <li><a href="#">Finansiering</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#geografi">Geografi</a></li>
+                <li><a href="#kompetencer">Kompetencer</a></li>
+                <li><a href="#baggrund">Baggrund</a></li>
+                <li><a href="#finansiering">Finansiering</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
             </ul>
             <section class="font-color-white">
                 <ul class="line-height-half">
@@ -37,33 +37,39 @@
         </nav>
 
         <main class="layout-main-content">
+            
+            <div id="geografi" class="section-gutter"></div>
+
             <section class="module-content-sections layout-content-sections hero-background">
                 <article class="module-hero-content-section layout-content-hero-section font-color-white">
                     <h1>Brug for en ordentlig Tømrer?</h1>
                     <p class="font-size-scale line-height-half">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.<br>
+                    Lorem, ipsum dolor sit amet consectetur<br>
                     </p>
-                    <a class="strong-letters font-size-scale-dubble" href="tel:+4526331787">26 33 17 87</a>
+                    <h3><a class="strong-letters font-size-scale-dubble" href="tel:+4526331787">26 33 17 87</a></h3>
                 </article>
             </section>
             
+            <div id="kompetencer" class="section-gutter"></div>
+
             <section class="module-content-sections layout-content-sections">
                 <article class="module-article-small layout-article-small">
                     <h1>Vi løser følgende opgaver</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deleniti nulla, dolore iusto, provident possimus harum autem perferendis tempora atque, iste fugit quis magni. Architecto illo veritatis, vel corporis aperiam ut non eaque nostrum quis tempora unde ipsum aliquid nemo ipsa? Recusandae esse ea, consectetur veritatis eum mollitia laudantium quaerat!</p>
                 </article>
                 <figure class="module-skills-gallery layout-skills-gallery">
-                    <img class="skills-gallery-item-one" src="assets/media/dewalt.jpg" alt="Billede af rundsav i aktion">
-                    <img class="skills-gallery-item-two" src="assets/media/dewalt.jpg" alt="">
-                    <img class="skills-gallery-item-three" src="assets/media/dewalt.jpg" alt="">
-                    <img src="assets/media/dewalt.jpg" alt="">
-                    <img src="assets/media/dewalt.jpg" alt="">
-                    <img src="assets/media/dewalt.jpg" alt="">
+                    <img src="assets/media/architect-architecture-build.jpg" alt="Billede af rundsav i aktion">
+                    <img class="skills-gallery-item-two" src="assets/media/crosscut-saw.jpg" alt="">
+                    <img class="skills-gallery-item-three" src="assets/media/abstract-architecture.jpg" alt="">
+                    <img src="assets/media/carpenter.jpg" alt="">
+                    <img src="assets/media/roofconstruction.jpg" alt="">
+                    <img src="assets/media/terrasse.jpg" alt="">
                     <img src="assets/media/dewalt.jpg" alt="">
                 </figure>
             </section>
+
+            <div id="baggrund" class="section-gutter"></div>
 
             <section class="module-content-sections layout-content-sections padding-left-right theme-background-color">
                 <aside class="module-profile-card layout-profile-card">
@@ -79,10 +85,25 @@
                 </article>
             </section>
 
+            <div id="finansiering" class="section-gutter"></div>
+
+            <section class="module-content-sections layout-content-sections">
+                <figure class="module-vendigo-image layout-vendigo-image">
+                    <img class="layout-vendigo-image-item" src="assets/media/vendigo.jpg" alt="Vendigo Finansiering - Billede af kundeservice dame fra Vendigo">
+                </figure>
+                <article class="layout-vendigo-article">
+                    <h1>Vendigo Finansiering</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde omnis necessitatibus enim asperiores eveniet perferendis praesentium harum, odio aperiam excepturi!</p>
+                </article>
+            </section>
+
+            <div id="kontakt" class="section-gutter"></div>
+            
             <section>
                 
             </section>
         </main>
     </div>
+    <script src="./assets/javascript/app.js"></script>
 </body>
 </html>
