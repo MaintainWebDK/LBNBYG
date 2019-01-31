@@ -17,3 +17,5 @@
 .padding-left-right{padding: 0 10vh;}
 
 .section-gutter{height: var(--gutter);}
+
+.content-background-color{background-color: var(--content-color);}

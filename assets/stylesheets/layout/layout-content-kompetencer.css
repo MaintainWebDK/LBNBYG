@@ -1,0 +1,4 @@
+.layout-content-kompetencer{
+    display: grid;
+    grid-template-columns: 1fr var(--gutter) 1.3fr;
+}

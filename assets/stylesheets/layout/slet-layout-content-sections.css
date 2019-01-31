@@ -5,6 +5,6 @@
     grid-template-rows: repeat(8, 1fr);
 }
 
-/* .layout-content-sections:not(:last-of-type){
+.layout-content-sections:not(:last-of-type){
     margin-bottom: var(--gutter);
-} */
+}

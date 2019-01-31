@@ -8,6 +8,7 @@
 @import url("layout-profile-article.css");
 @import url("layout-vendigo-image.css");
 @import url("layout-vendigo-article.css");
+@import url("layout-content-kompetencer.css");
 
 .grid-container{
     display: grid;
@@ -15,11 +16,11 @@
     grid-auto-rows: repeat(5, 100vh); 
 }
 
-@media (min-width: 320px) and (max-width: 480px){  
+/* @media (min-width: 320px) and (max-width: 480px){  
     .grid-container{
         grid-template-columns: 1fr;
     }
-}
+} */
 
 .layout-main-content{
     margin: 0 var(--gutter);
