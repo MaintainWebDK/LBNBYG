@@ -9,18 +9,17 @@
 @import url("layout-vendigo-image.css");
 @import url("layout-vendigo-article.css");
 @import url("layout-content-kompetencer.css");
+@import url("layout-content-baggrund.css");
+@import url("layout-content-finansering.css");
+@import url("layout-content-kontakt.css");
+@import url("layout-kontakt-image.css");
+@import url("layout-kontakt-info.css");
 
 .grid-container{
     display: grid;
     grid-template-columns: 20vw 80vw;
     grid-auto-rows: repeat(5, 100vh); 
 }
-
-/* @media (min-width: 320px) and (max-width: 480px){  
-    .grid-container{
-        grid-template-columns: 1fr;
-    }
-} */
 
 .layout-main-content{
     margin: 0 var(--gutter);

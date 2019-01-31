@@ -1,4 +1,5 @@
-.layout-vendigo-image{
+.layout-kontakt-image{
+    grid-row: 1 / 4;
     width: 100%;
     min-height: 100%;
     object-fit: cover;

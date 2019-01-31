@@ -1,0 +1,9 @@
+.layout-kontakt-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.layout-kontakt-info a{
+    color: var(--font-content-color);
+}
