@@ -1,6 +1,5 @@
 .layout-profile-card{
-    grid-column: 1 / 3;
-    grid-row: 2 / 8;
+    grid-row-start: 2;
     padding: 5vh;
     text-align: center;
 }

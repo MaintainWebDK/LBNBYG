@@ -1,0 +1,3 @@
+Layout-content-section.css: Dette stylesheets definerede det overordnede grid. 
+                            Den skal ikke længere benyttes. Hver section skal have 
+                            sit eget unikke grid!

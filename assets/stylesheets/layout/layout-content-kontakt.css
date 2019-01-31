@@ -1,0 +1,8 @@
+.layout-content-kontakt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.layout-content-kontakt a {
+    color: var(--content-color);
+}
