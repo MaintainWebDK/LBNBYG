@@ -3,6 +3,10 @@
 }
 
 .module-content-sections-kontakt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     background-image: url("../../media/glad-toemrer.jpg");
     background-size: cover;
+    padding: calc(var(--gutter) * 3);
 }
