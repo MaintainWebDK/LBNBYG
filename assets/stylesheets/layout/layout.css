@@ -21,6 +21,12 @@
     grid-auto-rows: repeat(5, 100vh); 
 }
 
+@media screen and (max-width: 375px){
+    .grid-container{
+        display: block;
+    }
+}
+
 .layout-main-content{
     margin: 0 var(--gutter);
 }

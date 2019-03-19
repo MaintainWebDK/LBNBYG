@@ -3,6 +3,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 375px){
+    .layout-content-kontakt{
+        display: block;
+    }
+}
+
 .layout-content-kontakt a {
     color: var(--content-color);
 }

@@ -7,3 +7,12 @@
 .layout-kontakt-info a{
     color: var(--font-content-color);
 }
+
+@media screen and (max-width: 375px){
+    .layout-kontakt-info{
+        align-items: center;
+        justify-content: space-between;
+        line-height: 2em;
+        background-color: var(--content-color);
+    }
+}
