@@ -11,6 +11,13 @@ html, body{
     letter-spacing: 0.03em;
     scroll-behavior: smooth;
 }
+
+@media screen and (max-width:375px){
+    html, body{
+        font-size: calc(1.15em + (21 - 16) * (100vw - 412px) / (1920 - 412));
+    }
+}
+
 h1{font-size: 2em; margin-top: 0; font-family: Georgia, 'Times New Roman', Times, serif; text-align: left;}
 h2, h3, h4, h5, h6{margin: 0;}
 h3{margin: calc(var(--gutter) * 5) 0 0 0;}

@@ -6,6 +6,12 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 375px){
+    .layout-vendigo-article{
+        background-color: var(--content-color);
+    }
+}
+
 .layout-vendigo-article h1{
     text-align: center;
 }

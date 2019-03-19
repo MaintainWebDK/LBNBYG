@@ -4,6 +4,15 @@
     text-align: center;
 }
 
+@media screen and (max-width: 375px){
+    .layout-profile-card{
+        display: block;
+    }
+    aside.layout-profile-card{
+        display: none;
+    }
+}
+
 .layout-profile-card img{
     border-radius: 50%;
     width: 15vh;

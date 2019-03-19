@@ -1,6 +1,6 @@
 @import url("../variables.css");
 @import url("layout-primary-navigation.css");
-@import url("layout-content-sections.css");
+/* @import url("layout-content-sections.css"); */
 @import url("layout-content-hero-section.css");
 @import url("layout-article-small.css");
 @import url("layout-skills-gallery.css");
@@ -19,6 +19,12 @@
     display: grid;
     grid-template-columns: 20vw 80vw;
     grid-auto-rows: repeat(5, 100vh); 
+}
+
+@media screen and (max-width: 375px){
+    .grid-container{
+        display: block;
+    }
 }
 
 .layout-main-content{

@@ -2,3 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 375px){
+    .layout-content-finansering{
+        display: flex;
+        flex-direction: column;
+    }
+    .layout-content-finansering > article{
+        padding: var(--gutter);
+        order: -1;
+    }
+}

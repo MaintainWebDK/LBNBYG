@@ -1,5 +1,5 @@
 .module-content-sections{
-    height: calc(100vh - (var(--gutter) * 2));
+    min-height: calc(100vh - (var(--gutter) * 2));
 }
 
 .module-content-sections-kontakt{
@@ -9,4 +9,15 @@
     background-image: url("../../media/glad-toemrer.jpg");
     background-size: cover;
     padding: calc(var(--gutter) * 3);
+}
+
+@media screen and (max-width: 375px){
+    .module-content-sections-kontakt{
+        display: block;
+        background-position: center top;
+    }
+
+    .module-content-sections{
+       min-height: 0;
+    }
 }

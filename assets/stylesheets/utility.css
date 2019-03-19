@@ -16,6 +16,12 @@
 
 .padding-left-right{padding: 0 10vh;}
 
+@media screen and (max-width: 375px){
+    .padding-left-right{
+        padding: 5vh;
+    }
+}
+
 .section-gutter{height: var(--gutter);}
 
 .content-background-color{background-color: var(--content-color);}
