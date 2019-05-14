@@ -15,7 +15,7 @@
 @media screen and (max-width: 375px){
     .module-content-sections-kontakt{
         display: block;
-        background-position: right top;
+        background-position: right center;
     }
 
     .module-content-sections{
