@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    background-image: url("../../media/glad-toemrer.jpg");
+    background-image: url("../../media/map.png");
     background-size: cover;
+    background-position: center;
     padding: calc(var(--gutter) * 3);
 }
 
