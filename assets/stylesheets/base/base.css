@@ -18,7 +18,7 @@ html, body{
     }
 }
 
-h1{font-size: 2em; margin-top: 0; font-family: Georgia, 'Times New Roman', Times, serif; text-align: left;}
+h1{font-size: 2em; margin-top: 0; font-family: 'Poppins', sans-serif; text-align: left;}
 h2, h3, h4, h5, h6{margin: 0;}
 h3{margin: calc(var(--gutter) * 5) 0 0 0;}
 a{color: #FFFFFF; text-decoration: none;}
