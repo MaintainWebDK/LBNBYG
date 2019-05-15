@@ -2,3 +2,9 @@
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
 }
+
+@media screen and (max-width: 375px){
+    .hero-background{
+        background-position: center center;
+    }
+}
