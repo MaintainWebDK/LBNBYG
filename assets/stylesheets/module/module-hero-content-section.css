@@ -5,6 +5,6 @@
 
 @media screen and (max-width: 375px){
     .hero-background{
-        background-position: center center;
+        background-position: center bottom;
     }
 }
