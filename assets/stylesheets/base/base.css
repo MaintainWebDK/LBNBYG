@@ -6,7 +6,7 @@ html {
 }
 html, body{
     margin: 0;
-    font-family: 'Roboto', sans-serif; color: var(--font-content-color);
+    font-family: 'Poppins', sans-serif; color: var(--font-content-color);
     font-size: calc(1em + (21 - 16) * (100vw - 412px) / (1920 - 412));
     letter-spacing: 0.03em;
     scroll-behavior: smooth;
