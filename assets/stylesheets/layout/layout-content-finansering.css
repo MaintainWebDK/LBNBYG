@@ -10,7 +10,6 @@
         flex-direction: column;
     }
     .layout-content-finansering > article{
-        padding: var(--gutter);
         order: -1;
     }
 }
