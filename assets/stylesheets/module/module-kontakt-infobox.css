@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 375px){
     .module-kontakt-infobox{
-        min-width: 70%;
+        display: none;
     }
 }
