@@ -5,11 +5,12 @@
     flex-direction: column;
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
+    background-position: center top;
     min-height: calc(100vh - (var(--gutter) * 2));
 }
 
 @media screen and (max-width: 375px){
     .hero-background{
-        background-position: center bottom;
+        background-position: center top;
     }
 }
