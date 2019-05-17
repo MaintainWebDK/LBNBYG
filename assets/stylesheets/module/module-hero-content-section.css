@@ -6,6 +6,7 @@
 }
 .hero-background::after{
     position: absolute;
+    content: '';
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
     background-position: center top;
