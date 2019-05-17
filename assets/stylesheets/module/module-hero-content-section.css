@@ -1,4 +1,8 @@
 .hero-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
     min-height: calc(100vh - (var(--gutter) * 2));
