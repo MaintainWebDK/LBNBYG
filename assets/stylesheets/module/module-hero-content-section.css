@@ -4,6 +4,7 @@
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
     background-position: center top;
+    opacity: 0.7;
     min-height: calc(100vh - (var(--gutter) * 2));
 }
 
