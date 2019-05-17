@@ -1,6 +1,7 @@
 .hero-background{
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
+    min-height: calc(100vh - (var(--gutter) * 2));
 }
 
 @media screen and (max-width: 375px){
