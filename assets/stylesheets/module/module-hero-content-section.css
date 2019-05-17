@@ -1,11 +1,20 @@
 .hero-background{
+    position: relative;
     display: flex;
     align-items: center;
+    min-height: calc(100vh - (var(--gutter) * 2));
+}
+.hero-background::after{
+    position: absolute;
     background-image: url("../../media/abstract-architecture.jpg");
     background-size: cover;
     background-position: center top;
-    opacity: 0.7;
-    min-height: calc(100vh - (var(--gutter) * 2));
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 375px){
