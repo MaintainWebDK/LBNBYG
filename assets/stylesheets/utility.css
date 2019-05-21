@@ -2,7 +2,9 @@
 
 .hero-title{font-size: 3em;}
 
-.button{background: #86E2BF; padding: 25px;}
+.button{position: relative; background: #86E2BF; padding: 25px 25px; z-index: 1;}
+
+.button::after{position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: 5px; content: ''; border: solid 2px var(--font-content-color); z-index: 2;}
 
 .strong-letters{font-weight: bold;}
 
@@ -19,6 +21,10 @@
 .theme-background-color{background-color: var(--content-color);}
 
 .padding-left-right{padding: 0 10vh;}
+
+.margin-reset{margin: 0;}
+
+.text-center{text-align: center;}
 
 @media screen and (max-width: 375px){
     .padding-left-right{

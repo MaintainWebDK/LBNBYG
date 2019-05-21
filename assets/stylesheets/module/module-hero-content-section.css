@@ -3,6 +3,7 @@
     display: flex;
     background: rgba(0,0,0,0.5);
     align-items: center;
+    justify-content: center;
     min-height: calc(100vh - (var(--gutter) * 2));
 }
 .hero-background::after{
