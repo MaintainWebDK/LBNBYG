@@ -21,7 +21,7 @@
     grid-auto-rows: repeat(5, 100vh); 
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .grid-container{
         display: block;
     }

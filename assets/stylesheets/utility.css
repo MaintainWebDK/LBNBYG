@@ -2,7 +2,7 @@
 
 .hero-title{font-size: 3em;}
 
-.button{position: relative; background: #86E2BF; padding: 25px 25px; z-index: 1;}
+.button{position: relative; background: var(--green); padding: 25px 25px; z-index: 1;}
 
 .button::after{position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: 5px; content: ''; border: solid 2px var(--font-content-color); z-index: 2;}
 

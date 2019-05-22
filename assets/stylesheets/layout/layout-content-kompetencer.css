@@ -4,7 +4,7 @@
     grid-gap: var(--gutter);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .layout-content-kompetencer{
         display: block;
     }

@@ -12,7 +12,7 @@
     padding: calc(var(--gutter) * 3);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .module-content-sections-kontakt{
         display: block;
         background-position: right center;

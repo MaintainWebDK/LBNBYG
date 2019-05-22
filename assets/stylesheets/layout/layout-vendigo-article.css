@@ -6,7 +6,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .layout-vendigo-article{
         background-color: var(--content-color);
     }

@@ -8,7 +8,7 @@
     color: var(--font-content-color);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .layout-kontakt-info{
         align-items: center;
         justify-content: space-between;
