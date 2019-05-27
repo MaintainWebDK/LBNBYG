@@ -1,7 +1,7 @@
 .hero-background{
     position: relative;
     display: flex;
-    background: rgba(0,0,0,0.5);
+    background: rgba(241,249,255,0.45);
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - (var(--gutter) * 2));

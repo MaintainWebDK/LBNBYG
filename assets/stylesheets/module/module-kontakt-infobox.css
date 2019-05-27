@@ -1,8 +1,8 @@
 .module-kontakt-infobox{
     padding: var(--gutter);
+    border: solid 2px var(--green);
     opacity: 0.9;
     min-width: 45%;
-    min-height: 12%;
     background-color: white;
 }
 

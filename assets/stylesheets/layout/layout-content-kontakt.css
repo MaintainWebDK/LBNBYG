@@ -5,7 +5,8 @@
 
 @media screen and (max-width: 479px){
     .layout-content-kontakt{
-        display: block;
+        /* display: block; */
+        grid-template-columns: 1fr 1.1fr;
     }
 }
 

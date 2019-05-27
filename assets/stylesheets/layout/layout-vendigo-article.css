@@ -2,7 +2,6 @@
     grid-column-start: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: justify;
 }
 
@@ -10,8 +9,4 @@
     .layout-vendigo-article{
         background-color: var(--content-color);
     }
-}
-
-.layout-vendigo-article h1{
-    text-align: center;
 }
