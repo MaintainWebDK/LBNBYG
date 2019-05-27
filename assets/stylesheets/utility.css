@@ -1,6 +1,6 @@
 .uppercase-letters{text-transform: uppercase;}
 
-.button{position: relative; background: var(--green); padding: 25px 25px; z-index: 1;}
+.button{position: relative; background: var(--green); padding: 25px 25px; margin-top: 50px;}
 
 .button::after{position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: 5px; content: ''; border: solid 2px var(--font-content-color); z-index: 2;}
 
@@ -28,10 +28,11 @@
 
 .logo{width: 60%; height: auto; margin: 0 0 40px 0;}
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 479px){
     .padding-left-right{
         padding: 5vh;
     }
+    .profilbillede{display: block; border-radius: 50%; width: 150px; margin: 0 auto 35px auto;}
 }
 
 .section-gutter{height: var(--gutter);}

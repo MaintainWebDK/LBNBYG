@@ -29,3 +29,4 @@ p{margin: 0; line-height: 1.6rem;}
 figure{margin:0;}
 address{font-style: normal;}
 .color-content{color: var(--font-content-color);}
+.profilbillede{display: none;}
