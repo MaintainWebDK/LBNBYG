@@ -1,7 +1,8 @@
 .hero-background{
     position: relative;
     display: flex;
-    background: rgba(241,249,255,0.45);
+    /* background: rgba(241,249,255,0.45); */
+    background: rgba(0, 0, 0, 0.4);
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - (var(--gutter) * 2));
@@ -9,7 +10,7 @@
 .hero-background::after{
     position: absolute;
     content: '';
-    background-image: url("../../media/abstract-architecture.jpg");
+    background-image: url("../../media/building-1245984_960_720.jpg");
     background-size: cover;
     background-position: center top;
     top: 0;
