@@ -14,9 +14,13 @@
 
 .font-color-black{color: var(--black);}
 
+.font-size-minimize{font-size: 0.70em;}
+
 .font-size-scale{font-size: 1.15em;}
 
 .font-size-scale-dubble{font-size: 1.5em;}
+
+.font-size-hero-heading{font-size: 3.5em; font-weight: 700; margin-bottom: 0.10em;}
 
 .theme-background-color{background-color: var(--content-color);}
 
