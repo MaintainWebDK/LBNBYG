@@ -13,6 +13,7 @@
     background-image: url("../../media/building-1245984_960_720.jpg");
     background-size: cover;
     background-position: center top;
+    background-attachment: fixed;
     top: 0;
     left: 0;
     bottom: 0;
