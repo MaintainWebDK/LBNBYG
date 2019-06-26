@@ -1,5 +1,5 @@
 .layout-vendigo-article{
-    grid-column-start: 2;
+    grid-column-start: 1;
     display: flex;
     flex-direction: column;
     text-align: justify;
